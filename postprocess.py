@@ -49,14 +49,11 @@ def macroPar(img, vx_res, pOut):
     s, v, f = surf(im)
     sv = sv_calc_uneven(s, vx_res, im.shape)
     por = 1- (im/255).mean()
-    # impad = padding(im,2).astype(np.uint8)
-    # tif.imwrite( pOut / 'paddedFoam.tif', impad, dtype=np.uint8) #,compression=5
-    # t0 = time.time()
-    # export_stl(v,f, pOut / 'foamSTL')
-    # t1 = time.time()
+    with open(pOut / 'macroDescriptors.txt','w') as f:
+        f.write('porosity= {:.3f}\n'.format(por))
+        f.write('Sv= {:.3f}\n'.format(sv))
     print('\nporosity =',por)
     print('\nspecific surface =', sv)
-    # print('\nTotal stl creation time is', t1 - t0, 'seconds')
     print('\n')
 
 def padSTL(img, pOut):
