@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <par>
     <paths>
-        <pOut>TESTPERCAMILLA-W420_R25_REP20_a55_b75_N8_S6_tv25</pOut>
+        <pOut>AL2O3PPI20-W420_R25_REP20_a55_b75_N8_S6_tv25</pOut>
         <pIn>PlugIns</pIn>
     </paths>
     <aggSph>
