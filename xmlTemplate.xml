@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<par>
+    <paths>
+        <pOut>TESTPERCAMILLA-W420_R25_REP20_a55_b75_N8_S6_tv25</pOut>
+        <pIn>PlugIns</pIn>
+    </paths>
+    <aggSph>
+        <NB>380</NB>
+        <Alpha>0.55</Alpha>
+        <Beta>0.75</Beta>
+        <Repul>20</Repul>
+        <R>25</R>
+        <W>420</W>
+    </aggSph>
+    <tess>
+        <R_node>8</R_node>
+        <R_strut>6</R_strut>
+        <iter>1</iter>
+    </tess>
+    <morph>
+        <Operation>Closing</Operation>
+        <tv>25</tv>
+    </morph>
+    <postProc>
+        <vx_res>50e-06</vx_res>
+    </postProc>
+</par>

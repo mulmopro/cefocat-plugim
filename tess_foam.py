@@ -125,6 +125,12 @@ def write_obj( filename, coord, radius, newBox, obj):
         df.to_csv(filename, mode='a', float_format='%.4f',sep=' ',index=False,header=False)
 
 
+def delBoundEdges(edges, bound):    # new function remove boundary edges
+    mp = edges.mean(axis=1)
+    idx = ((mp == bound[0]).any(axis=1) | (mp == bound[-1]).any(axis=1))
+    return idx
+
+
 def bfoam(dest_p, sph_r, edg_r, iters=1, periodic=False):
     t0 = time.time()
 
@@ -138,6 +144,7 @@ def bfoam(dest_p, sph_r, edg_r, iters=1, periodic=False):
     foam = foam_iter(centers, rads, BoxTess, itr=iters,per=periodic)
 
     allEdges = allEdgy(foam, decim=4)
+    allEdges = allEdges[~delBoundEdges(allEdges, np.unique(BoxTess))]   # Remove boundary edges
     allPoints = getPoints(allEdges)
 
     pp = allPoints - allPoints.min(axis=0) #.round().astype(int)
