@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<par>
+    <paths> 
+	<pOut>Al2O3PPI20_W420_R25_REP11_a35_b100_N13_S4_tv19-TheNew</pOut>
+        <pIn>PlugIns</pIn>
+    </paths>
+    <aggSph>
+        <NB>380</NB>
+        <Alpha>0.35</Alpha>
+        <Beta>1</Beta>
+        <Repul>11</Repul>
+        <R>25</R>
+        <W>420</W>
+    </aggSph>
+    <tess>
+        <R_node>13</R_node>
+        <R_strut>4</R_strut>
+        <iter>1</iter>
+    </tess>
+    <morph>
+        <Operation>Closing</Operation>
+	<tv>19</tv>
+    </morph>
+</par>
