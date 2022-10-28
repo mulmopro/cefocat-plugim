@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Title Value="Generation of Boolean model" />
+  <LoadDefault Value="SBsph.txt"/>
+  <Step Line1="Generation of 3D Boolean model from .txt file." 
+        Line2="Text file is obtained from a previous Boolean model simulation plugin."
+  />
+  <Step Id="SameSize" Line1="Change the size of the generated volume :"
+		Line2="o Same as original : keep the initial size from .txt file."
+		Line3="o New size : scale the generated cube to a new size."
+  />
+  <Step Id="Tmax" Line1="Define the new size of the generated volume"  />
+  <Step Id="INEExpert" Line1="Enable expert mode to activate additional parameters." />
+  <Step Id="perio" Line1="Periodic volume along x-axis and y-axis." />
+  <Step Id="perioZ" Line1="Periodic volume along z-axis." />
+  <Step Id="etiquette" Line1="Objects are labelled if parameter - labelling - is checked." />
+  <Step Id="INEPreview" Line1="Activate preview to show the preview result."/>
+</Root>

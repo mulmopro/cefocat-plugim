@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Fonction Name="3D surface area" Desc="3D surface area and volume fraction." Author="IFPEN 2015 MM" />
+  <IN Type="fda3D8" />
+  <OUT Type="FDA" />
+  <OUTPREV Type="FDA" />
+  <Export Value="Result.txt"/>
+  <Param Type="Bool" Id="ObjetMultiple" Name="Consider CC" Value="false" Desc="Consider each connected components as one object (true) or entire volume as only one object (false)."/>
+  <Param Type="LStr" Id="Type" Name="Size of objects" Value="Small objects"  ListeStr="Small objects|Big objects" ListeStrGUI="Small objects|Large objects" Desc="For surface area estimation, consider the volume composed of small objects (20 voxels) or not."/>
+</Root>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Fonction Name="FDA to TIF" Desc="Convert to TIF file. To be used without plug im! platform." Author="IFPEN 2021" colR="10" colG="50" colB="10"/>
+  <IN Type="fda3D" />
+  <OUT Type="TIF" />
+  <ModeShow Value="2" />
+</Root>

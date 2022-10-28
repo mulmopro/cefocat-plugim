@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Fonction Name="Aggregation spheres" Desc="Aggregation spheres fast scheme" Author="IFPEN MM GF 2020" />
+  <IN Type="" />
+  <OUT Type="FDA" />
+  <OUTPREV Type="FDA" />
+  <SpecialAction FinalResultIsPreview="true" />
+  <Export Value="Simulation.txt" />
+  <Param Type="Int" Id="W" Name="Image size" Value="300" Incr="10" Min="10" Max="2000" Desc="Size of the image to generate."/>
+  <Param Type="Bool" Id="Periodic" Name="Periodic" Value="true" Desc="Periodic simulation." /> 
+  <Param Type="Int" Id="val" Name="Intensity" Value="255" Min="1" Max="255" Desc="Voxels' intensity value of the simulation." /> 
+  <Param Type="Hide" Id="Gamma" Name="Compacity Gamma" Value="0" NbDec="2" Incr="0.01" Min="0" Max="1" Desc="Compacity farthest point." /> 
+  <Param Type="Double" Id="Alpha" Name="Compacity Alpha" Value="0.1" NbDec="2" Incr="0.01" Min="0" Max="1" Desc="Compacity concave points." /> 
+  <Param Type="Double" Id="Beta" Name="Compacity Beta" Value="0.5" NbDec="2" Incr="0.01" Min="0" Max="1" Desc="Compacity mass center." /> 
+  <Param Type="LStr" Id="RType" Name="Radius Distribution" Value="Cste" ListeStr="Constante|Poisson|LogNormal" Desc="Distribution law of the radius of spheres." />
+  <Param Type="Double" Id="R" Name="Sphere radius" Value="10" NbDec="1" Incr="1" Min="1" Max="2000" Desc="Radius of Spheres." /> 
+  <Param Type="Double" Id="RSD" Name="Radius standard deviation" Value="1" Min="0" Max="100000" NbDec="2" VisibleIfLStrId="RType" VisibleIfLStrValue="LogNormal" Desc="Log-Normal distribution standard deviation." />
+  <Param Type="Double" Id="Repul" Name="Repulsion" Value="1" NbDec="1" Incr="1" Min="0" Max="2000" Desc="Distance of repulsion." /> 
+  <Param Type="LStr" Id="NBType" Name="Nb. Sph. Distribution" Value="Cste" ListeStr="Constante|Poisson|LogNormal" Desc="Distribution law of the number of spheres." />
+  <Param Type="Int" Id="NB" Name="Nb. Sph. mean" Value="50" Min="1" Max="10000000" Desc="Mean number of spheres." /> 
+  <Param Type="Double" Id="NBsD" Name="Standard deviation" Value="1" Min="0" Max="100000" NbDec="2" VisibleIfLStrId="NBType" VisibleIfLStrValue="LogNormal" Desc="Log-Normal distribution standard deviation." />
+</Root>

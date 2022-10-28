@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Title Value="Mathematical morphology : 3D binary geodesic operations" />
+  <LoadDefault Value="Struct.fda"/>
+  <Step 
+	Line1="Compute geodesic binary mathematical morphology operations for 3D volumes."
+	Line2="The mask set is the initial set for erosion or complementary set for dilation."
+  />
+  <Step 
+    Id="fast" 
+	Line1="If checked, compute distance with Chamfer 3x3x3 metric."
+	Line2="Else, exact distance computation is performed."
+	Line3="The preview is calculated in an extracted 2D plane and may be slightly different" 
+	Line4="from the final 3D result."
+
+  />
+   <Step 
+    Id="Operation" 
+	Line1="Select the type of operation."
+  />
+  <Step 
+    Id="tv" 
+	Line1="Define the size of the geodesic operation."
+  />
+  <Step 
+    Id="INEPreview" 
+	Line1="Activate preview to show the preview result."
+	Line2="Differences between initial and result images are in grey."  
+  />
+</Root>

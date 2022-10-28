@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Fonction Name="Binary Morpho 3D" Desc="Binary geodesic mathematical morphology basic operations for 3D volume" Author="IFPEN 2020 MM" />
+  <IN Type="fda3D8" />
+  <OUTPREV Type="FDA" />
+  <OUT Type="FDA" />
+  <ModeShow Value="3" />
+  <SpecialAction Update3Dchange="true" RestartIfUpdate="false" FitonPreview="true"/>
+  <Param Type="Bool" Id="fast" Name="Fast" Value="false" Desc="If checked, fast but non exact computation."/>
+  <Param Type="LStr" Id="Operation" Name="Operation" Value="Dilation"  ListeStr="Dilation|Erosion|Closing|Opening" Desc="Morphological operation."/>
+  <Param Type="Int" Id="tv" Name="Size" Value="5" Min="1" Max="1000"  Desc="Size of the geodesic operation."/>
+</Root>

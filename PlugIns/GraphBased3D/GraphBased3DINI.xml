@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Fonction Name="GBTortuosity" Desc="Graph Based M-tortuosity" Author="IFPEN 2020 AH" />
+  <IN Type="fda3D8" />
+  <OUT Type="FDA" />
+  <OUTPREV Type="FDA" />
+  <ModeShow Value="3"/>
+  <Export Value="G-tortuosity.txt"/>
+  <SpecialAction FinalResultIsPreview="true" />
+  <Param Type="LStr" Id="Weight" Name="Weighting" Value="Dist" ListeStr="Dist|InvVol|InvVol2"/>
+  <Param Type="Int" Id="nb_samples" Name="Number of points" Value="50" Min="1" Max="1000" IncrLineaire="true"  Desc="Number of points"/>
+</Root>

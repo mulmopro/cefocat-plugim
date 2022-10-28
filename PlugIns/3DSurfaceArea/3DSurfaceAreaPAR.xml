@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <BatchMode Value="false" />
+  <ZIncr Value="1" />
+  <YIncr Value="1" />
+  <XIncr Value="1" />
+  <ZStart Value="0" />
+  <YStart Value="0" />
+  <XStart Value="0" />
+  <ZUnit Value="px" />
+  <YUnit Value="px" />
+  <XUnit Value="px" />
+  <ZName Value="z" />
+  <YName Value="y" />
+  <XName Value="x" />
+  <procExecute Value="false" />
+  <ScreenH Value="730" />
+  <ScreenW Value="708" />
+  <Scale Value="1.625" />
+  <Yoffset Value="46" />
+  <Xoffset Value="35" />
+  <MaskBMP Value="C:\Users\eagostini\PlugIm\plugim\Temp\MASK.bmp" />
+  <MaskPNG Value="C:\Users\eagostini\PlugIm\plugim\Temp\MASK.png" />
+  <MaskFDA Value="C:\Users\eagostini\PlugIm\plugim\Temp\MASK.fda" />
+  <MaskTXT Value="C:\Users\eagostini\PlugIm\plugim\Temp\MASK.txt" />
+  <Export Value="C:\Users\eagostini\PlugIm\plugim\Temp\Result.txt" />
+  <LUTmax Value="255" />
+  <LUTmin Value="0" />
+  <LUT Value="0" />
+  <FileNameFull Value="morphOut.fda" />
+  <FileName Value="morphOut" />
+  <FileDir Value="C:\Users\eagostini\PlugIm\plugim\Al2O3PPI20_W420_R25_REP20_a55_b75_N11_S9_tv15Postproc" />
+  <Plan3D Value="0" />
+  <Axe3D Value="0" />
+  <Time Value="554176" />
+  <OUTPREV Value="C:\Users\eagostini\PlugIm\plugim\Temp\PREV.fda" />
+  <OUT Value="C:\Users\eagostini\PlugIm\plugim\Temp\OUT.fda" />
+  <IN Value="C:\Users\eagostini\PlugIm\plugim\Temp\IN.fda" />
+  <Type Value="Small objects" />
+  <ObjetMultiple Value="false" />
+</Root>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Fonction Name="Generation BS" Desc="Generation of Boolean model" Author="IFPEN 2015 MM" />
+  <IN Type=".sb" />
+  <OUT Type="FDA" />
+  <OUTPREV Type="FDA" />
+  <SpecialAction AlwaysFitonPreview="true" AutoLaunchPreview="true" HideShowMode="true"/>
+  <Param Type="LStr" Id="SameSize" Name="Size" Value="Same as original" ListeStr="Same as original|New size" Desc="Generated cube size." />
+  <Param Type="Int" Id="Tmax" Name="New size" Value="300" Min="0" Max="10000" Mode="Normal" VisibleIfLStrId="SameSize" VisibleIfLStrValue="New size" Desc="Size of the generated cube."/>
+  <Param Type="Bool" Id="perio" Name="XY periodic" Value="true" Expert="true" Desc="Periodic generation along X-axis and Y-axis."/>
+  <Param Type="Bool" Id="perioZ" Name="Z periodic" Value="true" Expert="true" Desc="Periodic generation along Z-axis."/>
+  <Param Type="Bool" Id="etiquette" Name="Labelling" Value="false" Expert="true" Desc="Label connected components."/>
+  <Param Type="Hide" Id="smallpreview" Value="false" Desc="Small preview computation."/>
+ </Root>

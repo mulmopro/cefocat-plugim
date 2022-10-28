@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <BatchMode Value="false" />
+  <ZIncr Value="1" />
+  <YIncr Value="1" />
+  <XIncr Value="1" />
+  <ZStart Value="0" />
+  <YStart Value="0" />
+  <XStart Value="0" />
+  <ZUnit Value="px" />
+  <YUnit Value="px" />
+  <XUnit Value="px" />
+  <ZName Value="z" />
+  <YName Value="y" />
+  <XName Value="x" />
+  <procExecute Value="true" />
+  <ScreenH Value="730" />
+  <ScreenW Value="1008" />
+  <Scale Value="1.64250004291534" />
+  <Yoffset Value="36" />
+  <Xoffset Value="175" />
+  <MaskBMP Value="D:\WOrK\2021\PRoJEtS\D3_XBV\ModMorphMousses\plugim\Temp\MASK.bmp" />
+  <MaskPNG Value="D:\WOrK\2021\PRoJEtS\D3_XBV\ModMorphMousses\plugim\Temp\MASK.png" />
+  <MaskFDA Value="D:\WOrK\2021\PRoJEtS\D3_XBV\ModMorphMousses\plugim\Temp\MASK.fda" />
+  <MaskTXT Value="D:\WOrK\2021\PRoJEtS\D3_XBV\ModMorphMousses\plugim\Temp\MASK.txt" />
+  <Export Value="" />
+  <LUTmax Value="255" />
+  <LUTmin Value="0" />
+  <LUT Value="0" />
+  <FileNameFull Value="CylinreETSphere.sb" />
+  <FileName Value="CylinreETSphere" />
+  <FileDir Value="D:\WOrK\2021\PRoJEtS\D3_XBV\ModMorphMousses\DataEnrico20210610" />
+  <Plan3D Value="93" />
+  <Axe3D Value="0" />
+  <Time Value="5234750" />
+  <OUTPREV Value="D:\WOrK\2021\PRoJEtS\D3_XBV\ModMorphMousses\plugim\Temp\PREV.fda" />
+  <OUT Value="D:\WOrK\2021\PRoJEtS\D3_XBV\ModMorphMousses\plugim\Temp\OUT.fda" />
+  <IN Value="D:\WOrK\2021\PRoJEtS\D3_XBV\ModMorphMousses\plugim\Temp\IN.sb" />
+  <smallpreview Value="false" />
+  <etiquette Value="false" />
+  <perioZ Value="false" />
+  <perio Value="false" />
+  <Tmax Value="300" />
+  <SameSize Value="Same as original" />
+</Root>
