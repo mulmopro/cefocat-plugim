@@ -21,3 +21,14 @@ A directory is created, named as reported in the xml file, containing:
 To clean the STL file from loose parts use blender in background launching the `separate_loose.py` script, within the directory containing the STL file:
 
 `blender -b -P separate_loose.py`
+
+## Installation
+* Download the cefocat-plugim repository
+* [Download](https://docs.anaconda.com/anaconda/install/windows/) Anaconda for Windows 
+* [Install](https://anaconda.org/anaconda/pip) pip for Anaconda
+* Install requirements `pip install -r requirements_2023.txt`
+* Make sure that you are using `.` (dots) for decimals otherwise change the Region settings in your Windows system.
+
+Tested on `python 3.9.13` and `python 3.9.16`
+
+10/3/2023 Agnese Marcato, Alessio Bocca
