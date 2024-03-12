@@ -32,4 +32,4 @@ To clean the STL file from loose parts use blender in background launching the `
 
 Tested on `python 3.9.13` and `python 3.9.16`
 
-10/3/2023 Agnese Marcato, Alessio Bocca
+12/03/2024 Enrico Agostini, Agnese Marcato, Alessio Bocca
