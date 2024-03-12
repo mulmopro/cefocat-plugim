@@ -1,5 +1,6 @@
 # cefocat-plugim
 Creation of foam-like geometries using plugIm! (https://www.plugim.fr/) -- Windows only
+This workflow was developed by Enrico Agostini as part of his Ph.D. project. The complete manuscript can be found at: https://iris.polito.it/retrieve/handle/11583/2981457/665253
 
 #### How to use
 On a command prompt or Windows PowerShell type:
